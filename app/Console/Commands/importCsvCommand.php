@@ -61,7 +61,7 @@ class importCsvCommand extends Command
             $customer->save();
         }
 
-        echo "\n";
+        echo " \n";
         echo "All data stored with latitude and longitude value into the database customers table.";
         return 'Csv Data are stored';
     }
